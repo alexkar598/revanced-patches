@@ -1,4 +1,4 @@
-package app.revanced.patches.fairemail
+package app.revanced.patches.fairemail.fingerprint
 
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.patch.bytecodePatch

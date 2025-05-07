@@ -172,12 +172,12 @@ public final class app/revanced/patches/facebook/ads/story/HideStoryAdsPatchKt {
 	public static final fun getHideStoryAdsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/fairemail/EnableProKt {
-	public static final fun getEnableProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/fairemail/fingerprint/SpoofFingerprintKt {
+	public static final fun getSpoofFingerprintPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
-public final class app/revanced/patches/fairemail/SpoofFingerprintKt {
-	public static final fun getSpoofFingerprintPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+public final class app/revanced/patches/fairemail/pro/EnableProKt {
+	public static final fun getEnableProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/finanzonline/detection/bootloader/BootloaderDetectionPatchKt {
