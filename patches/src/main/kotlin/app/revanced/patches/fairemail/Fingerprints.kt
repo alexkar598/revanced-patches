@@ -13,3 +13,13 @@ internal val isProFingerprint = fingerprint {
         method.name == "isPro" && method.definingClass == "Leu/faircode/email/ActivityBilling;"
     }
 }
+
+internal val hasValidFingerprintFingerprint = fingerprint {
+    accessFlags(AccessFlags.STATIC)
+    returns("Z")
+    parameters("Landroid/content/Context;")
+
+    custom { method, _ ->
+        method.name == "hasValidFingerprint" && method.definingClass == "Leu/faircode/email/Helper;"
+    }
+}
